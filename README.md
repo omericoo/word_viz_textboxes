@@ -1,5 +1,3 @@
-# word_viz_textboxes
-זה די טיפש מבחינת מידות, יש מילון עם הגדרות מדויקות לכל מילה.
 from collections import Counter 
 import matplotlib.pyplot as plt
 
