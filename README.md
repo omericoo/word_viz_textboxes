@@ -1,3 +1,4 @@
+
 from collections import Counter 
 import matplotlib.pyplot as plt
 
@@ -20,7 +21,7 @@ reqeusted_dict = {i[0] : i[1] for i in k.most_common(STEPS)}
 
 plt.style.use('seaborn-pastel')
 
-# ggplot,tableau-colorblind10
+ggplot,tableau-colorblind10
 
 dict_sizing = {0: (0.55, 0.87, 40, -15),
                1: (0.40, 0.65, 32.5, 15),
@@ -42,4 +43,4 @@ for i in range(STEPS):
 plt.axis('off')
 plt.show()
 
-# plt.save('file location')
+plt.save('file location')
